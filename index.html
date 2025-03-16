@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio UI/UX Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">Portfolio</a>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-menu">
+        <button class="close-menu" aria-label="Cerrar menú">
+            <i class="fas fa-times"></i>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Diseñadora UI/UX</h1>
+                        <p>Creando experiencias digitales intuitivas y atractivas que conectan con los usuarios.</p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary">Contacto</a>
+                            <a href="#projects" class="btn btn-outline">Ver proyectos</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="https://via.placeholder.com/400" alt="Imagen de perfil">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Proyectos destacados</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/500x300" alt="Rediseño de aplicación móvil">
+                        </div>
+                        <div class="project-content">
+                            <h3>Rediseño de aplicación móvil</h3>
+                            <p>Mejora de la experiencia de usuario para una aplicación de finanzas personales.</p>
+                            <a href="#" class="btn btn-small">Ver proyecto <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/500x300" alt="Diseño de sitio web e-commerce">
+                        </div>
+                        <div class="project-content">
+                            <h3>Diseño de sitio web e-commerce</h3>
+                            <p>Diseño completo de tienda online con enfoque en la conversión y experiencia de compra.</p>
+                            <a href="#" class="btn btn-small">Ver proyecto <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/500x300" alt="Sistema de diseño">
+                        </div>
+                        <div class="project-content">
+                            <h3>Sistema de diseño</h3>
+                            <p>Creación de un sistema de diseño completo para una startup tecnológica.</p>
+                            <a href="#" class="btn btn-small">Ver proyecto <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/500" alt="Sobre mí">
+                    </div>
+                    <div class="about-text">
+                        <h2>Sobre mí</h2>
+                        <p>Soy una diseñadora UI/UX apasionada por crear experiencias digitales que sean tanto funcionales como estéticamente atractivas. Mi enfoque se centra en entender las necesidades del usuario y traducirlas en diseños intuitivos y accesibles.</p>
+                        <p>Con experiencia en investigación de usuarios, wireframing, prototipos y diseño visual, me esfuerzo por crear soluciones que no solo se vean bien, sino que también resuelvan problemas reales para los usuarios.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">Diseño UI</div>
+                    <div class="skill-item">Diseño UX</div>
+                    <div class="skill-item">Investigación de usuarios</div>
+                    <div class="skill-item">Wireframing</div>
+                    <div class="skill-item">Prototipos</div>
+                    <div class="skill-item">Figma</div>
+                    <div class="skill-item">Adobe XD</div>
+                    <div class="skill-item">Sketch</div>
+                    <div class="skill-item">Design Systems</div>
+                    <div class="skill-item">Accesibilidad</div>
+                    <div class="skill-item">Responsive Design</div>
+                    <div class="skill-item">User Testing</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p>¿Interesado en trabajar juntos? Contáctame a través de cualquiera de estos canales.</p>
+                <div class="social-links">
+                    <a href="mailto:tu@email.com" class="social-btn" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/tuusuario" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/tuusuario" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="current-year"></span> Tu Nombre. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Términos</a>
+                    <a href="#">Privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
